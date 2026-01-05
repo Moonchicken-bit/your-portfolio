@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>闫泽雨 - 个人简历</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 粒子背景 -->
+    <div id="particles-js"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">闫泽雨</span>
+                <span class="logo-subtitle">Software Engineer</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#education" class="nav-link">教育背景</a></li>
+                <li><a href="#projects" class="nav-link">项目经历</a></li>
+                <li><a href="#experience" class="nav-link">实习经历</a></li>
+                <li><a href="#skills" class="nav-link">技能荣誉</a></li>
+                <li><a href="#contact" class="nav-link">联系我</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="闫泽雨">闫泽雨</h1>
+                <p class="typing-text">全栈开发工程师 | AI爱好者 | 技术探索者</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> 联系我
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code"></i> 查看项目
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:yancy130623@qq.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:13145683419" class="social-icon"><i class="fas fa-phone"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-glow"></div>
+                    <div class="profile-pic"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>向下滚动</p>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">01.</span> 关于我
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="highlight-text">快速学习适应能力：自学能力强，能快速掌握新知识与技能，遇到困难能快速适应并运用所学解决问题</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>姓名</strong>
+                                <p>闫泽雨</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <div>
+                                <strong>生日</strong>
+                                <p>2006.05</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>邮箱</strong>
+                                <p>yancy130623@qq.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>电话</strong>
+                                <p>13145683419</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3 class="counter" data-target="10">0</h3>
+                        <p>技术栈</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3 class="counter" data-target="5">0</h3>
+                        <p>项目经验</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3 class="counter" data-target="3">0</h3>
+                        <p>获奖荣誉</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">02.</span> 教育背景
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024.09 - 至今</div>
+                        <h3>滁州学院 - 软件工程</h3>
+                        <p class="degree">全日制本科</p>
+                        <div class="education-details">
+                            <p><strong>主修课程：</strong>计算机基础、C语言、数据结构与算法、网络编程（HTML）、面向对象程序（JAVA）、线性代数、高等数学、数据库原理与应用</p>
+                            <p><strong>GPA：</strong>3.97（专业前10%）</p>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">C语言</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">数据结构</span>
+                            <span class="tag">算法</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目经历 -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">03.</span> 项目经历
+            </h2>
+            <div class="projects-grid">
+                <!-- 项目1 -->
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>AIGC 数据可视化平台</h3>
+                            <span class="project-date">2025.02 - 2025.04</span>
+                        </div>
+                        <p class="project-desc">基于SpringBoot、MyBatis、MySQL等技术栈开发的智能数据分析平台，支持用户需求入数据集并输入分析需求，平台即可自动生成可视化图表及分析结论。</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SpringBoot</span>
+                            <span class="tech-tag">MyBatis</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">RabbitMQ</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 查看详情</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目2 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>"AI心鉴" 心理情绪感知与陈述可信度研判系统</h3>
+                            <span class="project-date">2025.09 - 至今</span>
+                        </div>
+                        <p class="project-desc">基于深度学习的心理情绪分析系统，能够通过面部表情、姿态等多模态生理与行为特征，辅助研判真伪心理情绪状态和陈述可信度。</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Qt5</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">Face Mesh</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> 查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 实习经历 -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">04.</span> 实习与校园经历
+            </h2>
+            <div class="experience-grid">
+                <div class="experience-card" data-aos="fade-up">
+                    <div class="exp-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="exp-content">
+                        <h3>南京艾艺轩文化有限公司</h3>
+                        <p class="exp-position">IT项目助理</p>
+                        <p class="exp-date">2025.10 - 至今</p>
+                        <ul class="exp-list">
+                            <li>提写云平台、人工智能、网络安全等计算机领域的技术报告、可行性研究报告、项目材料</li>
+                            <li>推进项目申报、实施、验收等环节</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-icon"><i class="fas fa-university"></i></div>
+                    <div class="exp-content">
+                        <h3>院学生会科技部</h3>
+                        <p class="exp-position">干事</p>
+                        <p class="exp-date">2024.09 - 2025.06</p>
+                        <ul class="exp-list">
+                            <li>团队管理：负责制定社团年度工作计划，拆解工作目标下分到部员</li>
+                            <li>活动策划：负责本学期创新创业组织与统筹，根据活动、物料、人员统筹，共完成5场活动，全院参与人数超500人</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-icon"><i class="fas fa-award"></i></div>
+                    <div class="exp-content">
+                        <h3>华为HSD校园大使</h3>
+                        <p class="exp-position">校园大使</p>
+                        <p class="exp-date">2025.9 - 至今</p>
+                        <ul class="exp-list">
+                            <li>主要负责华为企业在我校举行的一系列宣传、招新、技术沙龙交流等活动</li>
+                            <li>创立滁州学院鸿蒙技术交流社团，社团规模达50人</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能与荣誉 -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">05.</span> 技能与荣誉
+            </h2>
+            <div class="skills-container">
+                <div class="skills-left" data-aos="fade-right">
+                    <h3>技术技能</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java / SpringBoot</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python / PyTorch</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C语言</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>MySQL / Redis</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTML / CSS / JavaScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right" data-aos="fade-left">
+                    <h3>荣誉与证书</h3>
+                    <div class="honors-list">
+                        <div class="honor-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>C语言计算机二级</h4>
+                                <p>全国计算机等级考试</p>
+                            </div>
+                        </div>
+                        <div class="honor-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>CET-4 (487)</h4>
+                                <p>大学英语四级</p>
+                            </div>
+                        </div>
+                        <div class="honor-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>2024-2025 三好学生</h4>
+                                <p>滁州学院</p>
+                            </div>
+                        </div>
+                        <div class="honor-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>2024-2025 校级奖学金</h4>
+                                <p>滁州学院</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">06.</span> 联系我
+            </h2>
+            <div class="contact-content" data-aos="zoom-in">
+                <div class="contact-text">
+                    <h3>让我们一起创造些什么</h3>
+                    <p>我正在寻找新的机会，无论是实习、项目合作还是技术交流，我的邮箱随时为你开放！</p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>邮箱</h4>
+                            <a href="mailto:yancy130623@qq.com">yancy130623@qq.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>电话</h4>
+                            <a href="tel:13145683419">13145683419</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="mailto:yancy130623@qq.com" class="btn btn-primary btn-large">
+                    <i class="fas fa-paper-plane"></i> 发送邮件
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 闫泽雨. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
